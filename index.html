@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[YOUR NAME] | Data & Operations Analyst Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <nav>
+    <div class="brand">[YOUR NAME] <span>• Data & Operations Analyst</span></div>
+    <div><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+  </nav>
+  <div class="hero-copy">
+    <p class="eyebrow">DATA • OPERATIONS • BUSINESS INSIGHTS</p>
+    <h1>Turning data into clearer decisions.</h1>
+    <p class="lede">I use data cleaning, analysis, visualization, and business storytelling to turn messy information into practical insights.</p>
+    <div class="buttons"><a class="button" href="#projects">View projects</a><a class="button secondary" href="#contact">Contact me</a></div>
+  </div>
+</header>
+<main>
+<section id="about" class="section">
+  <div class="section-head"><p class="eyebrow">ABOUT ME</p><h2>Analytical, practical, and focused on the business question.</h2></div>
+  <div class="grid two">
+    <article class="card"><h3>My approach</h3><p>I enjoy taking a business problem, organizing the data behind it, finding the important patterns, and communicating the result in a way that a decision-maker can actually use.</p></article>
+    <article class="card"><h3>What I'm building</h3><p>This portfolio documents my transition into data and operations analytics through practical projects involving dashboards, process analysis, project performance, and business recommendations.</p></article>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-head"><p class="eyebrow">FEATURED PROJECTS</p><h2>Projects that show how I work.</h2></div>
+  <div class="grid three">
+    <article class="project-card featured">
+      <span class="tag">COMPLETED • CAPSTONE</span><h3>Bellabeat App Analytics</h3>
+      <p>Analyzed Fitbit activity, sleep, and time-of-day behavior to identify trends and translate them into marketing and product recommendations for the Bellabeat App.</p>
+      <div class="mini-stats"><span>Excel</span><span>Python</span><span>Tableau</span></div>
+      <a class="button small" href="#bellabeat">View case study</a>
+    </article>
+    <article class="project-card">
+      <span class="tag">COMING SOON</span><h3>Operations Dashboard</h3>
+      <p>Operational KPI dashboard focused on performance monitoring, trends, exceptions, and decision support.</p>
+      <div class="mini-stats"><span>Excel</span><span>Dashboarding</span><span>KPI Analysis</span></div>
+    </article>
+    <article class="project-card">
+      <span class="tag">COMING SOON</span><h3>Project Management Analytics</h3>
+      <p>Project analytics focused on milestones, timelines, workload, delivery performance, and project risk visibility.</p>
+      <div class="mini-stats"><span>Excel</span><span>Analytics</span><span>Reporting</span></div>
+    </article>
+  </div>
+</section>
+
+<section id="bellabeat" class="section">
+  <div class="section-head"><p class="eyebrow">CASE STUDY • BELLABEAT APP</p><h2>Turning smart-device data into wellness insights.</h2></div>
+  <div class="kpis">
+    <div><strong>457</strong><span>recorded activity days</span></div>
+    <div><strong>35</strong><span>unique IDs in supplied activity file</span></div>
+    <div><strong>43.1%</strong><span>days below 5,000 steps</span></div>
+    <div><strong>7.1h</strong><span>average sleep per sleep day</span></div>
+  </div>
+  <div class="grid two">
+    <article class="card"><h3>Business question</h3><p>What trends appear in smart-device usage, how might they apply to Bellabeat customers, and how could they inform marketing strategy?</p><h4>Product focus</h4><p>Bellabeat App — a natural fit for connecting activity, sleep, goals, and personalized wellness content.</p></article>
+    <article class="card"><h3>Data & quality</h3><p>The supplied files include daily activity, minute sleep, hourly steps, weight logs, and minute calories. Dates were standardized, duplicates checked, missingness documented, and minute-level data aggregated for analysis.</p><p class="note">The dataset is small and historical. Findings are directional and should not be treated as representative of all Bellabeat customers.</p></article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><p class="eyebrow">KEY FINDINGS</p><h2>What the data says</h2></div>
+  <div class="grid two">
+    <article class="card"><h3>1. Low-to-moderate activity is common</h3><p><b>197 of 457</b> recorded days were below 5,000 steps. Only <b>127 days</b> reached at least 10,000 steps.</p><img src="charts/step_distribution.png" alt="Bar chart showing recorded days by step range"></article>
+    <article class="card"><h3>2. Activity clusters around midday and evening</h3><p>Average hourly steps peaked around <b>7 PM</b>, with another strong period around <b>12 PM</b>.</p><img src="charts/hourly_steps.png" alt="Line chart showing average steps by hour"></article>
+    <article class="card"><h3>3. Sleep is useful but less consistently tracked</h3><p>The sleep file covers 23 users. Average sleep duration was about <b>7.1 hours</b> per sleep day; 97 sleep days were below 6 hours.</p><img src="charts/sleep_distribution.png" alt="Histogram showing sleep duration"></article>
+    <article class="card"><h3>4. Day-of-week differences are modest</h3><p>Average steps were fairly similar across weekdays and weekends, so time-of-day context is more useful than assuming a simple weekday/weekend split.</p><img src="charts/weekday_steps.png" alt="Bar chart showing average daily steps by weekday"></article>
+  </div>
+</section>
+
+<section class="section dark">
+  <div class="section-head"><p class="eyebrow">ACT</p><h2>Three recommendations</h2></div>
+  <div class="grid three">
+    <article><span class="number">01</span><h3>Promote small wins</h3><p>Use achievable movement prompts and progress feedback instead of assuming every user wants an intensive fitness goal.</p></article>
+    <article><span class="number">02</span><h3>Test time-aware engagement</h3><p>Experiment with relevant content around lunch and early evening, when activity was highest in this sample.</p></article>
+    <article><span class="number">03</span><h3>Connect activity + sleep</h3><p>Let users explore their own patterns across movement and sleep without making simplistic population-wide health claims.</p></article>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="section-head"><p class="eyebrow">SKILLS</p><h2>My analytics toolkit</h2></div>
+  <div class="skills"><span>Excel</span><span>Python / pandas</span><span>Data cleaning</span><span>Descriptive analysis</span><span>Data validation</span><span>Tableau</span><span>Data storytelling</span><span>Business recommendations</span><span>Operations analytics</span></div>
+</section>
+
+<section class="section">
+  <div class="section-head"><p class="eyebrow">RESUME & WORK</p><h2>Career materials</h2></div>
+  <div class="downloads"><a href="#">Resume — add PDF when ready</a><a href="https://public.tableau.com/" target="_blank" rel="noopener">Tableau Public</a><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></div>
+</section>
+
+<section id="contact" class="section contact">
+  <p class="eyebrow">CONTACT</p><h2>Let's connect.</h2><p>Replace the placeholders before publishing.</p>
+  <p><b>[YOUR NAME]</b><br>[YOUR EMAIL]<br><a href="[YOUR LINKEDIN URL]">LinkedIn</a></p>
+</section>
+</main>
+<footer>Analytics portfolio • Bellabeat case study using public Fitbit data • © [YEAR] [YOUR NAME]</footer>
+</body>
+</html>
